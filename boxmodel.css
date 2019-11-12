@@ -1,5 +1,11 @@
-span {background-color:
-     blue;}
 
-     .green-text {color: yellowgreen;
+
+     .boxcontainer {
+         display: flex;
+     }
+
+     .child {
+         width: 100px;
+         height: 100px;
+         background-color: brown;
      }
