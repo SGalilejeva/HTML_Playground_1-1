@@ -1,11 +1,37 @@
+#box-container {
+    background: gray;
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 400px;
+  }
 
-
-     .boxcontainer {
-         display: flex;
-     }
-
-     .child {
-         width: 100px;
-         height: 100px;
-         background-color: brown;
-     }
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 400px;
+  
+  #box-3 {
+    background-color: violet;
+    width: 25%;
+    height: 400px;
+  }
+  #box-4 {
+    background-color: yellow;
+    width: 25%;
+    height: 400px;
+  }
+  #box-5 {
+    background-color: green;
+    width: 25%;
+    height: 400px;
+  }
+  #box-6 {
+    background-color: black;
+    width: 25%;
+    height: 400px;
+  }
