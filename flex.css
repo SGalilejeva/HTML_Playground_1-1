@@ -7,19 +7,20 @@
   #box-1 {
     background-color: dodgerblue;
     width: 25%;
-    height: 400px;
+    height: 40px;
   }
 
   #box-2 {
     background-color: orangered;
     width: 25%;
     height: 400px;
-  
+  }
   #box-3 {
     background-color: violet;
     width: 25%;
     height: 400px;
   }
+
   #box-4 {
     background-color: yellow;
     width: 25%;
