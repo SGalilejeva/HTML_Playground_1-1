@@ -1,6 +1,6 @@
 #box-container {
     background: gray;
-    display: flex;
+    /* display: flex; */
     height: 400px;
     flex-wrap: wrap;
   }
