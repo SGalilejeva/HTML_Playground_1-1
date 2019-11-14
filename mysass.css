@@ -10,4 +10,8 @@ main .main-container {
   height: 90vh;
   color: red;
 }
+
+.my-botton {
+  border-radius: 10px;
+}
 /*# sourceMappingURL=mysass.css.map */

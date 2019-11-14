@@ -1,5 +1,11 @@
-$text-color: red;
+@import "colors.scss";
 
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
 
 body {
     background-color: silver;
@@ -11,4 +17,9 @@ main {
         height: 90vh;
         color: $text-color;
     }
+}
+
+.my-botton {
+    @include border-radius(10px
+    );
 }
