@@ -1,3 +1,14 @@
+$text-color: red;
+
+
 body {
     background-color: silver;
+}
+
+main {
+    background-color: orange;
+    .main-container {
+        height: 90vh;
+        color: $text-color;
+    }
 }
