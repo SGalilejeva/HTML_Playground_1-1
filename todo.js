@@ -21,10 +21,8 @@ document.getElementById('delete-all').onclick = () => {
         todoList.removeChild(todoList.firstChild);
     }
 }
-// const container = document.querySelectorAll('.container');
-// console.log("container tag" + container.tagName);
-// const children = container.childNodes;
-// for (let child of children) {
-    // console.log("My element has tag" + child.tagName);
-// }
+
+// how to create slider
+
+
 
