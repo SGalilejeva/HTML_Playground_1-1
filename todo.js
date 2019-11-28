@@ -22,7 +22,28 @@ document.getElementById('delete-all').onclick = () => {
     }
 }
 
-// how to create slider
+// how to create slider see Youtube LECTURE
 
+// class MyClass {
+//     myval = 42;
+//     constructor(props) {
+//         console.log("Initializing with" + props);
+//         this.name - props.name;
+//         this.lastName = props.lastName;
+//     }
 
+//     showMyVal() {
+//         console.log("My Val is", this.myval);
+//     }
+
+//     setMyVal(num) {
+//         this.myval = num;
+//     }
+// }
+
+// const newInstance = new MyClass(name: "Sandra", lastName: "Silver");
+
+// newInstance.showMyVal();
+// newInstance.setMyVal(66);
+// newInstance.showMyVal();
 
