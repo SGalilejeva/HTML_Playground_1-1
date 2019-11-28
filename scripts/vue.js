@@ -5,7 +5,12 @@ let app = new Vue({
     data: {
         message: 'Hello Rcs!',
         secondmessage: "Hello again",
-        seen: true
+        seen: true,
+        todos: [
+            { text: 'Learn JavaScript' },
+            { text: 'Learn Vue' },
+            { text: 'Build something awesome' }
+        ]
     }
 })
 

@@ -29,8 +29,17 @@
         <input type="text" v-bind:value="secondmessage">
 
         <span v-if="seen">Now you see me</span>
+
+
         <hr>
 
+        <hr>
+        <ol>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ol>
+        <hr>
     </div>
 
 </body>
