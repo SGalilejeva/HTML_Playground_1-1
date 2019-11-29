@@ -18,6 +18,8 @@
 
         <p>
             Lorem {{message + " " + secondmessage}}
+
+            <h3> Labrīt! </h3>
         </p>
 
         <hr>
@@ -25,7 +27,8 @@
             Hover your mouse over me for a few seconds
             to see my dynamically bound title!
         </span>
-
+        <hr>
+        <hr>
         <input type="text" v-bind:value="secondmessage">
 
         <span v-if="seen">Now you see me</span>
@@ -39,6 +42,12 @@
                 {{ todo.text }}
             </li>
         </ol>
+        <hr>
+        <hr>
+        <button v-on:click="reverseMessage">Reverse Message</button>
+        <button v-on:click="toggleSeen">{{seenMsg}}</button>
+        <input v-model="message">
+
         <hr>
     </div>
 
